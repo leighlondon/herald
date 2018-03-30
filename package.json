@@ -15,7 +15,7 @@
             {
                 "label": "Herald",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Herald-color-theme.json"
+                "path": "./themes/herald-color-theme.json"
             }
         ]
     }
