@@ -96,16 +96,24 @@
       }
     },
     {
-      "name": "Function, Special Method",
+      "name": "Function",
       "scope": [
         "entity.name.function",
         "meta.function-call",
         "variable.function",
-        "support.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#90CBF1"
+      }
+    },
+    {
+      "name": "Special Method",
+      "scope": [
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#FFEE68"
       }
     },
     {
@@ -140,7 +148,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#6DF584"
       }
     },
     {
@@ -156,7 +164,7 @@
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#C3E88D"
+        "foreground": "#FFB539"
       }
     },
     {
