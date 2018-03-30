@@ -2,16 +2,15 @@
   "name": "Herald",
   "type": "dark",
   "colors": {
-    "editor.background": "#1e1e1e",
-    "editor.foreground": "#d4d4d4",
+    "editor.background": "#1f1f1f",
+    "editor.foreground": "#d0d0d0",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb"
   },
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#eeffffff",
-        "background": "#263238ff"
+        "foreground": "#eeffffff"
       }
     },
     {
@@ -22,7 +21,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#546E7A"
+        "foreground": "#696567"
       }
     },
     {
@@ -669,7 +668,7 @@
     {
       "scope": "token.error-token",
       "settings": {
-        "foreground": "#f44747"
+        "foreground": "#FC4234"
       }
     },
     {
