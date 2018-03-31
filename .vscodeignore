@@ -1,4 +1,18 @@
+# meta files.
 .vscode/**
 .vscode-test/**
 .gitignore
+.editorconfig
+Makefile
 vsc-extension-quickstart.md
+
+# packaging
+*.vsix
+*.zip
+
+# scripts.
+script/**
+
+# exclude themes/ but add the actual _theme_
+themes/**
+!themes/herald-color-theme.json

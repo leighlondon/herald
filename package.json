@@ -1,12 +1,22 @@
 {
   "name": "herald",
-  "displayName": "herald",
+  "displayName": "Herald",
   "description": "Herald theme.",
-  "version": "0.0.1",
-  "publisher": "leighlondon",
-  "engines": {
-    "vscode": "^1.21.0"
+  "license": "SEE LICENSE IN LICENSE",
+  "preview": true,
+  "homepage": "https://github.com/leighlondon/eml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leighlondon/herald"
   },
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "galleryBanner": {
+    "color": "#C792EA",
+    "theme": "light"
+  },
+  "icon": "etc/herald-icon.png",
   "categories": ["Themes"],
   "contributes": {
     "themes": [
