@@ -79,7 +79,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#E783E9"
       }
     },
     {
@@ -88,6 +88,7 @@
         "keyword.operator",
         "meta.tag",
         "punctuation.definition.tag",
+        "punctuation.separator.namespace",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
@@ -118,7 +119,6 @@
       "name": "Function",
       "scope": [
         "entity.name.function",
-        "meta.function-call",
         "variable.function",
         "support.function"
       ],
@@ -130,7 +130,7 @@
       "name": "Special Method",
       "scope": ["keyword.other.special-method"],
       "settings": {
-        "foreground": "#FFEE68"
+        "foreground": "#E783E9"
       }
     },
     {
@@ -153,6 +153,7 @@
         "support.type",
         "support.class",
         "support.orther.namespace.use.php",
+        "variable.other.constant",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
