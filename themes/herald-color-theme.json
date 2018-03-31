@@ -52,7 +52,7 @@
     },
     {
       "name": "Entity Types",
-      "scope": ["support.type", "entity.name.type", "meta.tag"],
+      "scope": ["support.type", "entity.name.type", "meta.tag", "storage.type"],
       "settings": {
         "foreground": "#FFEE68"
       }
@@ -77,7 +77,7 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": ["keyword", "storage.modifier"],
       "settings": {
         "foreground": "#C792EA"
       }
