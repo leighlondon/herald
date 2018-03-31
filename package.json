@@ -2,7 +2,7 @@
   "name": "herald",
   "displayName": "Herald",
   "description": "Herald theme.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "SEE LICENSE IN LICENSE",
   "preview": true,
   "publisher": "leighlondon",
@@ -18,7 +18,7 @@
     "vscode": "^1.19.0"
   },
   "galleryBanner": {
-    "color": "#C792EA",
+    "color": "#FC6984",
     "theme": "light"
   },
   "icon": "etc/herald-icon.png",
