@@ -49,7 +49,7 @@
     },
     {
       "name": "Entity Types",
-      "scope": ["support.type"],
+      "scope": ["support.type", "entity.name.type"],
       "settings": {
         "foreground": "#FFEE68"
       }
