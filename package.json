@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE",
   "preview": true,
+  "publisher": "leighlondon",
+  "author": {
+    "name": "leighlondon"
+  },
   "homepage": "https://github.com/leighlondon/eml",
   "repository": {
     "type": "git",
