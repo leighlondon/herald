@@ -20,6 +20,7 @@
       "scope": [
         "constant.numeric",
         "constant.language",
+        "constant.other.color",
         "support.constant",
         "constant.character",
         "constant.escape",
@@ -78,7 +79,6 @@
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
-        "constant.other.color",
         "punctuation",
         "meta.tag",
         "punctuation.definition.tag",
