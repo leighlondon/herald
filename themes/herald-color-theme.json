@@ -78,7 +78,6 @@
     {
       "name": "Operator, Misc",
       "scope": [
-        "keyword.control",
         "punctuation",
         "meta.tag",
         "punctuation.definition.tag",
