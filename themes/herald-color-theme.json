@@ -48,17 +48,17 @@
       }
     },
     {
+      "name": "Entity Types",
+      "scope": ["support.type"],
+      "settings": {
+        "foreground": "#FFEE68"
+      }
+    },
+    {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
         "foreground": "#EEFFFF"
-      }
-    },
-    {
-      "name": "Colors",
-      "scope": ["constant.other.color"],
-      "settings": {
-        "foreground": "#ffffff"
       }
     },
     {
@@ -151,14 +151,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
-      }
-    },
-    {
-      "name": "Entity Types",
-      "scope": ["support.type"],
-      "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#70BDF1"
       }
     },
     {
