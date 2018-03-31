@@ -24,10 +24,10 @@
         "constant.other.color",
         "support.constant",
         "constant.character",
+        "constant.character.escape",
         "constant.escape",
         "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#6DF584"
@@ -62,7 +62,8 @@
       "scope": [
         "punctuation.definition.variable",
         "string.interpolated",
-        "variable.other.normal"
+        "variable.other.normal",
+        "entity.name"
       ],
       "settings": {
         "foreground": "#C792EA"
@@ -72,7 +73,7 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#FC4234"
       }
     },
     {
@@ -88,6 +89,8 @@
         "keyword.operator",
         "meta.tag",
         "punctuation.definition.tag",
+        "punctuation.definition",
+        "punctuation.separator",
         "punctuation.separator.namespace",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -123,14 +126,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "Special Method",
-      "scope": ["keyword.other.special-method"],
-      "settings": {
-        "foreground": "#E783E9"
+        "foreground": "#90CBF1"
       }
     },
     {
@@ -269,13 +265,6 @@
     {
       "name": "Regular Expressions",
       "scope": ["string.regexp"],
-      "settings": {
-        "foreground": "#89DDFF"
-      }
-    },
-    {
-      "name": "Escape Characters",
-      "scope": ["constant.character.escape"],
       "settings": {
         "foreground": "#89DDFF"
       }
