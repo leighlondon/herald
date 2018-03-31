@@ -18,6 +18,7 @@
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
+        "constant.other.placeholder",
         "constant.numeric",
         "constant.language",
         "constant.other.color",
@@ -56,7 +57,7 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": ["variable"],
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -78,6 +79,7 @@
     {
       "name": "Operator, Misc",
       "scope": [
+        "keyword.operator",
         "punctuation",
         "meta.tag",
         "punctuation.definition.tag",
