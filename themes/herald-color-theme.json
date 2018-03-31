@@ -37,6 +37,8 @@
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
+        "string.quoted.single",
+        "string.quoted.double",
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
@@ -50,16 +52,20 @@
     },
     {
       "name": "Entity Types",
-      "scope": ["support.type", "entity.name.type"],
+      "scope": ["support.type", "entity.name.type", "meta.tag"],
       "settings": {
         "foreground": "#FFEE68"
       }
     },
     {
       "name": "Variables",
-      "scope": ["variable"],
+      "scope": [
+        "punctuation.definition.variable",
+        "string.interpolated",
+        "variable.other.normal"
+      ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#C792EA"
       }
     },
     {
@@ -96,12 +102,15 @@
       }
     },
     {
+      "name": "Doctype",
+      "scope": ["meta.tag.sgml", "meta.tag.sgml.html"],
+      "settings": {
+        "foreground": "#696567"
+      }
+    },
+    {
       "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["entity.name.tag", "markup.deleted.git_gutter"],
       "settings": {
         "foreground": "#f07178"
       }
@@ -129,7 +138,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#E783E9"
       }
     },
     {
