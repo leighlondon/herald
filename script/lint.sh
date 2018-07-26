@@ -1,17 +1,6 @@
 #!/usr/bin/env bash
 
-COMMAND="prettier"
+hash prettier 2>/dev/null || { echo 'missing prettier'; exit 1; }
 
-_check_cmd() {
-    if ! [ -x "$(command -v $COMMAND)" ]; then
-        echo "linting requires '$COMMAND'." >&2
-        exit
-    fi
-}
-
-_run_cmd() {
-    $COMMAND --write 'themes/*.json' '*.json' '*.js'
-}
-
-_check_cmd
-_run_cmd
+echo '--- linting'
+prettier --write 'themes/*.json' '*.json' '*.js'
