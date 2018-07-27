@@ -62,8 +62,7 @@
       "scope": [
         "punctuation.definition.variable",
         "string.interpolated",
-        "variable.other.normal",
-        "entity.name"
+        "variable.other.normal"
       ],
       "settings": {
         "foreground": "#C792EA"
@@ -87,10 +86,7 @@
       "name": "Operator, Misc",
       "scope": [
         "keyword.operator",
-        "meta.tag",
         "punctuation.definition.tag",
-        "punctuation.definition",
-        "punctuation.separator",
         "punctuation.separator.namespace",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -123,7 +119,8 @@
       "scope": [
         "entity.name.function",
         "variable.function",
-        "support.function"
+        "support.function",
+        "storage.type.function"
       ],
       "settings": {
         "foreground": "#90CBF1"
